@@ -3,9 +3,8 @@
 [image1]: ./assets/KaggleChurnDatasetFirstRows.png "Churn dataset rows"
 [image2]: ./assets/AmountOfChurnersBySex.png "Imbalanced dataset"
 [image3]: ./assets/DistributionChurnersByFewProps.png "Churner properties"
-[image4]: ./assets/ScatterplotByChurn "Scatterplot feature relations"
-[image5]: ./assets/BestEstimators_rocauc_clf.png "Best estimators ROC AUC curves"
-[image6]: ./assets/Best_XGBC_TrainTestClassReport.png "XGBClassifier classification report"
+[image4]: ./assets/BestEstimators_rocauc_clf.png "Best estimators ROC AUC curves"
+[image5]: ./assets/Best_XGBC_TrainTestClassReport.png "XGBClassifier classification report"
 
 
 # Predict Customer Churn
@@ -35,9 +34,7 @@ Some detailed properties of the dataset and the customers, being a churner or no
 
 ![Imbalanced dataset][image2]     ![Churner properties][image3]
 
-As a consequence, we have to take care of this imbalanced insight selecting an appropriate model resp. evaluation metrics and modify the dataset before usage of the selected model. Feature relationships, visualised by the scatterplot diagram of churners shows already some skewness and correlation. 
-
-![Scatterplot feature relations][image4]
+As a consequence, we have to take care of this imbalanced insight selecting an appropriate model resp. evaluation metrics and modify the dataset before usage of the selected model. Feature relationships, visualised by the scatterplot diagram of churners shows already some skewness and correlation. This file is too big for this repository. So, you have to create it yourself to see the effect.
  
 So, e.g. scaling is necessary, before a classification model can be triggered. This coding is realised by an ML pipeline approach. In general, tree models can handle imbalanced datasets better compared to other model types. After training and prediction of the 3 selected classification tree models
 
@@ -49,9 +46,9 @@ their best estimators are stored in the `model` directory as a pickle file.
 
 Their evaluation results - classification reports, feature importance and shap values - are visualised as well and stored in the `.\images\results\` folder. 
 
-![Best estimators ROC AUC curves][image5]
+![Best estimators ROC AUC curves][image4]
 
-![XGBClassifier classification report][image6]
+![XGBClassifier classification report][image5]
 
 
 **Notes:**<br>
