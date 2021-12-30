@@ -99,7 +99,9 @@ autopep8 --in-place --aggressive --aggressive churn_config.py
 How do set up this project and its environment? How do you run your files? What should happen when you run your files? All this questions are explained now.
 
 ### Environment settings
-If you want to use this project files, you have to import the Python libraries used for this implementation and its dependencies. They are mentioned in the `requirements.txt` file that is created by usage of the `pipreqs`command as described in the following [blog](https://blog.jcharistech.com/2020/11/02/pipreqs-tutorial-how-to-create-requirements-txt-file-in-python-with-ease/) post.
+As prerequisite, Anaconda [edition](https://www.anaconda.com/products/individual) and Python V3.9.7 are installed.
+
+If you want to use this project files, you have to import the Python libraries used for this implementation and its dependencies. They are mentioned in the `requirements.txt` file of the requirements folder. That file is created by usage of the `pipreqs`command as described in the following [blog](https://blog.jcharistech.com/2020/11/02/pipreqs-tutorial-how-to-create-requirements-txt-file-in-python-with-ease/) post.
 
 #### Set-up
 0. Create your project directory for your new repository
