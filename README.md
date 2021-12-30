@@ -5,7 +5,7 @@
 [image3]: ./assets/DistributionChurnersByFewProps.png "Churner properties"
 [image4]: ./assets/BestEstimators_rocauc_clf.png "Best estimators ROC AUC curves"
 [image5]: ./assets/Best_XGBC_TrainTestClassReport.png "XGBClassifier classification report"
-
+[image6]: ./assets/Churn_xgbc_shap_meanImpactOnTest.png "XGBClassifier mean shap values"
 
 # Predict Customer Churn
 
@@ -49,6 +49,8 @@ Their evaluation results - classification reports, feature importance and shap v
 ![Best estimators ROC AUC curves][image4]
 
 ![XGBClassifier classification report][image5]
+
+![XGBClassifier mean shap values][image6]
 
 
 **Notes:**<br>
