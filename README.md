@@ -129,7 +129,7 @@ jupyter notebook
 
 
 #### License
-This project coding is released under the [MIT](https://github.com/IloBe/Customer_Churn_Classifier_master/blob/master/LICENSE) license.
+This project coding is released under the [MIT](https://github.com/IloBe/Customer_Churn_Classifier_master/blob/main/LICENSE) license.
 
 
 ### Scripts
