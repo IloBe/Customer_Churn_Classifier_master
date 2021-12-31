@@ -1,1 +1,3 @@
-
+# specific outputs of the eda functionality, stored in this folder
+*.html
+*.png
