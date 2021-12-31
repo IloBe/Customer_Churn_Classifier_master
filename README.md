@@ -34,7 +34,7 @@ Some detailed properties of the dataset and the customers, being a churner or no
 
 ![Imbalanced dataset][image2]     ![Churner properties][image3]
 
-As a consequence, we have to take care of this imbalanced insight selecting an appropriate model resp. evaluation metrics and modify the dataset before usage of the selected model. Feature relationships, visualised by the scatterplot diagram of churners shows already some skewness and correlation. This file is too big for this repository. So, you have to create it yourself to see the effect.
+As a consequence, we have to take care of this imbalanced insight selecting an appropriate model resp. evaluation metrics and modify the dataset before usage of the selected model. Feature relationships, visualised by the scatterplot diagram of churners shows already some skewness and correlation. This file and additional EDA diagrams are stored in the mentioned eda folder.
  
 So, e.g. scaling is necessary, before a classification model can be triggered. This coding is realised by an ML pipeline approach. In general, tree models can handle imbalanced datasets better compared to other model types. After training and prediction of the 3 selected classification tree models
 
