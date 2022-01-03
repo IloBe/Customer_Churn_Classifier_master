@@ -105,7 +105,7 @@ As prerequisite, Anaconda [edition](https://www.anaconda.com/products/individual
 
 If you want to use this project files, you have to import the Python libraries used for this implementation and its dependencies. They are mentioned in the `requirements.txt` file of the requirements folder. That file is created by usage of the `pipreqs`command as described in the following [blog](https://blog.jcharistech.com/2020/11/02/pipreqs-tutorial-how-to-create-requirements-txt-file-in-python-with-ease/) post.
 
-#### Set-up
+#### Set up
 0. Create your project directory for your new repository
 1. Clone this GitHub project or use its zip file to store the structure and files in your new repository
 2. **If you are running the project on your local machine (and not using AWS)** create and activate a new virtual environment, called `customer-churn-project`. First, move to your directory `path/to/churn-classifier-project`.
@@ -136,7 +136,7 @@ This project coding is released under the [MIT](https://github.com/IloBe/Custome
 ### Scripts
 The .py files include the main() function call for usage of the command line interface. In other words, an `if __name__ == "__main__"` block is included.
 
-Running the files `python` or `ipython` command on the terminal, the general project workflow, its status information and any kind of errors or in the test file case the testing results or errors are logged in a file stored in the `logs` folder. Some general dataset and workflow information is printed on the terminal as well, knowing the status of the run.
+Running the files via `python` or `ipython` command on the terminal, the general project workflow, its status information and any kind of errors or in the test file case the testing results or errors are logged in a file stored in the `logs` folder. Some general dataset and workflow information is printed on the terminal as well, knowing the status of the run.
 If some unexpected exceptions will appear, it is mentioned in the log file and an error raises on the terminal, terminating the script. Such issues have to be handled by software complaints for this project. An associated issue record is appreciated.
 
 #### Run the project file
